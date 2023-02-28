@@ -1,0 +1,128 @@
+.header {
+    height: 70px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 10%;
+}
+
+.logo, .nav {
+    display: inline-block;
+}
+
+.header {
+    margin: 0;
+}
+
+ul.nav .nav-item {
+    display:  inline-block;
+}
+
+.header .container-fluid.d-flex {
+    justify-content: space-between;
+}
+
+#overview {
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-content: center;
+    height: 300px;
+
+}
+
+#problemGrid {
+    margin: 0 auto;
+    padding-left: 20%;
+    display: grid;
+    min-height: 500px;
+
+    grid-template-columns: 35% 65%;
+    grid-template-areas: "probSolv computerFrame";
+}
+
+.problemGridArea {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    position: relative;
+  }
+
+  #theProblem {
+    position: absolute;
+    justify-content: center;
+    top: 1px;
+    padding: 10%;
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: lightgrey;
+  }
+
+  #theSolution {
+    position: absolute;
+    justify-content: center;
+    margin-top: 10px;
+    top: 200px;
+    padding: 10%;
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: lightgrey;
+  }
+  
+#macbookFrame {
+    justify-content: center;
+    position: absolute;
+    top: 1px
+}
+
+#protoPersona{
+    padding-left: 20%;
+    background-color: bisque;
+}
+
+#pphead {
+    position: absolute;
+    top: 1400px;
+}
+
+#ppImage {
+    position: absolute;
+    top: 1550px;
+    left: 900px;
+}
+
+#userPath {
+    margin: 0 auto;
+    padding-left: 20%;
+    display: grid;
+    min-height: 500px;
+
+    grid-template-columns: 35% 65%;
+    grid-template-areas: "upDesc upImage";
+}
+
+.upGridArea {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+#upDesc {
+    position: absolute;
+    top: 2400px;
+    padding: 10%;
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+
+#upHead {
+    position: absolute;
+    top: 2200px;
+}
